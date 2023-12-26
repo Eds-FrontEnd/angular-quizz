@@ -1,0 +1,75 @@
+{
+  "title":"Você é um programador Javascript ou Angular?",
+  "questions":[
+    {
+      "id":1,
+      "question": "O que é o Angular?",
+      "options":[
+        {"id": 1, "name":"Um framework front-end mantido pelo Google.", "alias":"A"},
+        {"id": 2, "name":"Uma linguagem de programação de servidor.", "alias":"B"},
+        {"id": 3, "name":"Uma ferramenta para tarefas de desenvolvimento.", "alias":"B"},
+        {"id": 4, "name":"Uma extensão do JavaScript para programação assíncrona.", "alias":"B"},
+        {"id": 5, "name":"Uma biblioteca para manipulação do DOM.", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "O que são Diretivas em Angular?",
+      "options":[
+        {"id": 1, "name":"Instruções para o compilador HTML.", "alias":"A"},
+        {"id": 2, "name":"Métodos para manipulação de arrays.", "alias":"B"},
+        {"id": 3, "name":"Funções de inicialização de componentes.", "alias":"B"},
+        {"id": 4, "name":"Subconjuntos de módulos.", "alias":"B"},
+        {"id": 5, "name":"Um conjunto de regras de estilo para a aplicação.", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "O que é TypeScript em relação ao Angular?",
+      "options":[
+        {"id": 1, "name":"Um serviço de hospedagem de código fonte.", "alias":"B"},
+        {"id": 2, "name":"Uma ferramenta para testes automatizados.", "alias":"B"},
+        {"id": 3, "name":"Uma linguagem de programação superset do JavaScript.", "alias":"A"},
+        {"id": 4, "name":"Um framework de design de interfaces de usuário.", "alias":"B"},
+        {"id": 5, "name":"Uma biblioteca para manipulação do DOM.", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Como a navegação é feita em Angular?",
+      "options":[
+        {"id": 1, "name":"Usando o serviço navigation.", "alias":"B"},
+        {"id": 2, "name":"Através de diretivas ng-route.", "alias":"B"},
+        {"id": 3, "name":"Com o método changeComponent.", "alias":"B"},
+        {"id": 4, "name":"Por meio de eventos de clique no DOM.", "alias":"B"},
+        {"id": 5, "name":"Utilizando o roteamento incorporado.", "alias":"A"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual é a principal função do Angular CLI?",
+      "options":[
+        {"id": 1, "name":"Realizar análise estática de código JavaScript.", "alias":"B"},
+        {"id": 2, "name":"Gerar automaticamente código boilerplate para projetos Angular.", "alias":"A"},
+        {"id": 3, "name":"Facilitar a instalação de bibliotecas externas.", "alias":"B"},
+        {"id": 4, "name":"Fornecer um ambiente de desenvolvimento integrado (IDE).", "alias":"B"},
+        {"id": 5, "name":"Criar animações para páginas web.", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual é a função do comando ng serve em Angular?",
+      "options":[
+        {"id": 1, "name":"Iniciar um servidor de banco de dados.", "alias":"B"},
+        {"id": 2, "name":"Compilar o código TypeScript em JavaScript.", "alias":"A"},
+        {"id": 3, "name":"Executar testes unitários na aplicação.", "alias":"B"},
+        {"id": 4, "name":"Iniciar um servidor e observar alterações no código.", "alias":"B"},
+        {"id": 5, "name":"Realizar análise estática de código.", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Parabéns!!",
+    "B": "Infelizmente não foi dessa vez..."
+  }
+}

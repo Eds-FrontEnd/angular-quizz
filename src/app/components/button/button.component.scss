@@ -1,0 +1,24 @@
+button {
+  width: 250px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--yellow);
+    box-shadow: 5px 5px 35px 3px rgba(0,0,0,0.28);
+  }
+
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+
+  &:focus {
+    background-color: var(--green);
+    border: 1px solid var(--black);
+    box-shadow: 5px 5px 35px 3px rgba(0,0,0,0.28);
+
+  }
+}

@@ -1,0 +1,13 @@
+<div class="question__container">
+  <div *ngIf=!finished class="question">
+    <h1>{{ questionSelected.question }}</h1>
+    <div class="responses">
+      <app-button *ngFor="let option of questionSelected.options" [responseQuizz]="option.name"
+      (click)="playerChoose(option.alias)"></app-button>
+    </div>
+  </div>
+  <div *ngIf=finished class="question_result">
+    <h1>O seu resultado foi: <h3>{{ answerSelected }}</h3> Você acertou: {{ count }} das 6 questões.</h1>
+    <app-button responseQuizz="Tente novamente" (click)="reStart()" class="restart"></app-button>
+  </div>
+</div>

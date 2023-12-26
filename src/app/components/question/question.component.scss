@@ -1,0 +1,30 @@
+.question__container {
+
+  h1 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .responses {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .restart {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+}

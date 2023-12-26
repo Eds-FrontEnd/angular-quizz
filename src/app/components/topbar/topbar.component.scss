@@ -1,0 +1,22 @@
+.topbar__container {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+
+  .topbar_logo {
+    img{
+      width: 60px;
+      padding: 8px;
+      cursor: pointer;
+    }
+  }
+
+  .topbar_logo_write {
+    h1 {
+      color: var(--white);
+      cursor: pointer;
+    }
+  }
+}
