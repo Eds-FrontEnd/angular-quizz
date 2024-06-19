@@ -1,27 +1,33 @@
-# AngularQuizz
+# ⚡ Projeto
+## 🚀 Bem-vindo ao projeto Angular Quizz! 
+### Este é um projeto de quizz desenvolvido em Angular. 
+## Pré-requisitos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+Antes de começar, certifique-se de ter o Node.js e o npm instalados em seu ambiente de desenvolvimento.
 
-## Development server
+- Node.js: [Baixar Node.js](https://nodejs.org/)
+- npm (gerenciador de pacotes do Node.js): Geralmente instalado junto com o Node.js
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação
 
-## Code scaffolding
+1. Clone este repositório para o seu ambiente local:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   ```bash
+   git clone https://github.com/seu-usuario/angular-quizz.git
+   
+2. Navegue até o diretório do projeto:
 
-## Build
+   ```bash
+   cd angular-quizz
+      
+3. Instale as dependências necessárias do projeto utilizando npm:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+   npm install
+      
+4. Para iniciar o servidor de desenvolvimento do Angular e visualizar o projeto:
 
-## Running unit tests
+   ```bash
+   ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="src/assets/images/quizz.jpg" />
