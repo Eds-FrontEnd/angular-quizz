@@ -10,22 +10,18 @@ Antes de começar, certifique-se de ter o Node.js e o npm instalados em seu ambi
 
 ## Instalação
 
-1. Clone este repositório para o seu ambiente local:
-
-   ```bash
-   git clone https://github.com/seu-usuario/angular-quizz.git
-   
-2. Navegue até o diretório do projeto:
+1. Baixe o projeto em arquivo zip para seu ambiente local e
+navegue até a pasta do projeto:
 
    ```bash
    cd angular-quizz
       
-3. Instale as dependências necessárias do projeto utilizando npm:
+2. Instale as dependências necessárias do projeto utilizando npm:
 
    ```bash
    npm install
       
-4. Para iniciar o servidor de desenvolvimento do Angular e visualizar o projeto:
+3. Para iniciar o servidor de desenvolvimento do Angular e visualizar o projeto:
 
    ```bash
    ng serve
